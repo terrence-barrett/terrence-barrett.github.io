@@ -1,81 +1,48 @@
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #ffffff;
-            margin: 0;
-            padding: 0;
-        }
+/* COMMON */
+body {
+    font-family: "monospace", sans-serif;
+}
 
-        header {
-            background-color: #ffffff;
-            color: rgb(255, 255, 255);
-            text-align: center;
-            padding: 20px;
-        }
+.font-primary {
+    color: brown;
+}
 
-        h1 {
-            font-size: 36px;
-            margin: 0;
-            color: rgb(0, 0, 0);
-            text-align: center;
-        }
+.title-icon {
+    font-size: 20px;
+    font-weight: bold;
+}
 
-        main {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: white;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        }
+/* ABOUT */
 
-        h2 {
-            color: #333;
-            font-size: 30px;
-            text-align: center;
-            position: relative;
-        }
+#about{
+    margin: 60px auto;
+    max-width: 400px;
+    text-align: center;
+}
 
-        section {
-            margin-top: 30px;
-        }
+#about img{
+    border-radius: 50%;
+    width: 120px;
+    margin-bottom:10px;
+}
 
-        h4 {
-            color: #007BFF;
-            font-size: 18px;
-            text-align: center;
-        }
+#about .name{
+    font-size: 19px;
+}
 
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
+#about .vocation{
+    font-size: 17px;
+    color: brown;
+    margin-bottom: 10px;
+}
 
-        th, td, tr {
-            text-align: center;
-        }
+#about .skills {
+    font-size: 14px;
+    color: brown;
+    margin-bottom: 10px;
+}
 
-        th{
-            background-color: #e4deca;
-            
-        }
-
-        .box{
-            text-align: center;
-            width: 150px;
-            height: 150px;
-            padding-left: 10%;
-            padding-right: 10%;
-            margin: auto;
-            border: 1px dashed ;
-            font-size: 1rem;
-        }
-
-        #container{
-            margin: auto;
-            width: 90%;
-            height: ;
-            border: 4px solid black;
-
-            /* grid stuff below */
-            display: grid;
-        }
+#about .email{
+    margin-top: 14px;
+    font-size: 30px;
+}
